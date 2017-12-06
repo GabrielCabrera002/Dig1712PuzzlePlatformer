@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Monobehaviours\Enemy.cs" />
      <Compile Include="Assets\Scripts\Monobehaviours\GameController.cs" />
      <Compile Include="Assets\Scripts\Monobehaviours\ObservableMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\Monobehaviours\PlayerController.cs" />

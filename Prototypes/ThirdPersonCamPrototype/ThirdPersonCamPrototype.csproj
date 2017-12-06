@@ -84,13 +84,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\Monobehaviours\TestPlayerMovement.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\Monobehaviours\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\NonMonobehaviours\States\CameraState.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\NonMonobehaviours\States\FollowTarget.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\NonMonobehaviours\States\State.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\NonMonobehaviours\States\TPCameraMode.cs" />
-    <Compile Include="Assets\ThirdPersonCamWork\Scripts\NonMonobehaviours\States\TPCameraState.cs" />
+    <Compile Include="Assets\Scripts\Monobehaviours\TestPlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Monobehaviours\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\NonMonobehaviours\States\CameraState.cs" />
+    <Compile Include="Assets\Scripts\NonMonobehaviours\States\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\NonMonobehaviours\States\State.cs" />
+    <Compile Include="Assets\Scripts\NonMonobehaviours\States\TPCameraMode.cs" />
+    <Compile Include="Assets\Scripts\NonMonobehaviours\States\TPCameraState.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
